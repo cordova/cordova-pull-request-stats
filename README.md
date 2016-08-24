@@ -3,12 +3,14 @@
 Stats pulled in from Apache Cordova repos on Github, and compiled using the [cordova-coho](https://github.com/apache/cordova-coho) tool.
 
 To grab new `platforms` json:
+
 `coho list-pulls --repo=platforms --stats-only --json | tail -n +2 > platforms-DD-MM-YYY.json`
 
 To grab new `plugins` json:
+
 `coho list-pulls --repo=plugins --stats-only --json | tail -n +2 > plugins-DD-MM-YYY.json`
 
-Put the json in the appropriate YYYY directory in this repo.
+Put the json in the appropriate `YYYY` directory in this repo.
 
 ```
 --json only works with `--stats-only` and outputs the stats in JSON format (false by default).
