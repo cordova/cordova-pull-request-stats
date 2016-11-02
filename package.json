@@ -1,0 +1,32 @@
+{
+  "name": "cordova-pull-request-stats",
+  "version": "1.0.0",
+  "description": "Stats pulled in from Apache Cordova repos on Github, and compiled using the [cordova-coho](https://github.com/apache/cordova-coho) tool.",
+  "main": "index.js",
+  "dependencies": {
+    "cordova-coho": "git+https://github.com/apache/cordova-coho.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "list:all": "npm run list:platforms && npm run list:plugins",
+    "prelist:all": "npm run create-folders",
+    "list:platforms": "CORDOVA_GIT_ACCOUNT=$npm_package_config_GITHUB_API_KEY node_modules/.bin/coho list-pulls --repo=platforms --stats-only --json | tail -n +2 > `node -e \"console.log(new Date().toISOString().split('T')[0].split('-')[0])\"`/platforms-`node -e \"console.log(new Date().toISOString().split('T')[0])\"`.json",
+    "list:plugins": "CORDOVA_GIT_ACCOUNT=$npm_package_config_GITHUB_API_KEY node_modules/.bin/coho list-pulls --repo=plugins --stats-only --json | tail -n +2 >  `node -e \"console.log(new Date().toISOString().split('T')[0].split('-')[0])\"`/plugins-`node -e \"console.log(new Date().toISOString().split('T')[0])\"`.json",    
+    "create-folders": "mkdir -p `node -e \"console.log(new Date().toISOString().split('T')[0].split('-')[0])\"`"
+  },
+  "config": {
+     "GITHUB_API_KEY": "3532618480a7f947d2a93b2d1528107c1b3e7d48",
+     "GITHUB_API_KEY2": "GENERATE A TOKEN FROM HERE: https://github.com/settings/tokens",
+     "OUTPUT_FOLDER": "`node -e \"console.log(new Date().toISOString().split('T')[0].split('-')[0])\"`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordova/cordova-pull-request-stats.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cordova/cordova-pull-request-stats/issues"
+  },
+  "homepage": "https://github.com/cordova/cordova-pull-request-stats#readme"
+}

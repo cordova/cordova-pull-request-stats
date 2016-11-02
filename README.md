@@ -4,11 +4,11 @@ Stats pulled in from Apache Cordova repos on Github, and compiled using the [cor
 
 To grab new `platforms` json:
 
-`coho list-pulls --repo=platforms --stats-only --json | tail -n +2 > platforms-DD-MM-YYY.json`
+`coho list-pulls --repo=platforms --stats-only --json | tail -n +2 > platforms-YYYY-MM-DD.json`
 
 To grab new `plugins` json:
 
-`coho list-pulls --repo=plugins --stats-only --json | tail -n +2 > plugins-DD-MM-YYY.json`
+`coho list-pulls --repo=plugins --stats-only --json | tail -n +2 > plugins-YYYY-MM-DD.json`
 
 Put the json in the appropriate `YYYY` directory in this repo.
 
@@ -20,6 +20,12 @@ Put the json in the appropriate `YYYY` directory in this repo.
 `old` pull requests are PRs that are older than `--max-age`.
 `stale` pull requests are PRs that are `old` and last commented on by `--hide-user`
 ````
+
+## Easy scripts
+
+`npm install && npm list:all`
+
+This will grab the plugins and platforms PRs and put them in the appropriate year folder automatically, and name them accordingly to the current date.
 
 ## Github API key
 
