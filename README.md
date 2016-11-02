@@ -20,3 +20,11 @@ Put the json in the appropriate `YYYY` directory in this repo.
 `old` pull requests are PRs that are older than `--max-age`.
 `stale` pull requests are PRs that are `old` and last commented on by `--hide-user`
 ````
+
+## Github API key
+
+Set env variable `CORDOVA_GIT_ACCOUNT` to `<username>:<password>` or `<api-token>` to avoid hitting GitHub rate limits.
+
+e.g.
+
+`CORDOVA_GIT_ACCOUNT=a7shh41jkkh1661h1 coho list-pulls --repo=plugins --stats-only --json | tail -n +2 > plugins-DD-MM-YYY.json`
