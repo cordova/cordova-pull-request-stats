@@ -27,6 +27,14 @@ Put the json in the appropriate `YYYY` directory in this repo.
 
 This will grab the plugins and platforms PRs and put them in the appropriate year folder automatically, and name them accordingly to the current date.
 
+Update the `GITHUB_API_KEY` config key with your Github Personal Access token, in `package.json`.
+
+```
+  "config": {
+     "GITHUB_API_KEY": "GENERATE A TOKEN FROM HERE: https://github.com/settings/tokens"
+  },
+```
+
 ## Github API key
 
 Set env variable `CORDOVA_GIT_ACCOUNT` to `<username>:<password>` or `<api-token>` to avoid hitting GitHub rate limits.
