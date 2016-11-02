@@ -15,8 +15,7 @@
     "create-folders": "mkdir -p `node -e \"console.log(new Date().toISOString().split('T')[0].split('-')[0])\"`"
   },
   "config": {
-     "GITHUB_API_KEY": "3532618480a7f947d2a93b2d1528107c1b3e7d48",
-     "GITHUB_API_KEY2": "GENERATE A TOKEN FROM HERE: https://github.com/settings/tokens",
+     "GITHUB_API_KEY": "GENERATE A TOKEN FROM HERE: https://github.com/settings/tokens",
      "OUTPUT_FOLDER": "`node -e \"console.log(new Date().toISOString().split('T')[0].split('-')[0])\"`"
   },
   "repository": {
