@@ -1,0 +1,215 @@
+{
+    "title": "coho list-pulls report",
+    "timestamp": "2016-11-11T22:30:25.877Z",
+    "max-age": 1000,
+    "repos": [
+        {
+            "repo": "cordova-plugin-inappbrowser",
+            "fresh-count": 30,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 30,
+            "message": "30 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-camera",
+            "fresh-count": 27,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 27,
+            "message": "27 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-media",
+            "fresh-count": 25,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 25,
+            "message": "25 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-file-transfer",
+            "fresh-count": 20,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 20,
+            "message": "20 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-file",
+            "fresh-count": 16,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 16,
+            "message": "16 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-contacts",
+            "fresh-count": 15,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 15,
+            "message": "15 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-splashscreen",
+            "fresh-count": 14,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 14,
+            "message": "14 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-dialogs",
+            "fresh-count": 14,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 14,
+            "message": "14 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-media-capture",
+            "fresh-count": 12,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 12,
+            "message": "12 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-geolocation",
+            "fresh-count": 10,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 10,
+            "message": "10 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugins",
+            "fresh-count": 8,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 8,
+            "message": "8 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-battery-status",
+            "fresh-count": 8,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 8,
+            "message": "8 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-statusbar",
+            "fresh-count": 6,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 6,
+            "message": "6 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-wkwebview-engine",
+            "fresh-count": 4,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 4,
+            "message": "4 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-screen-orientation",
+            "fresh-count": 3,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 3,
+            "message": "3 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-whitelist",
+            "fresh-count": 2,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 2,
+            "message": "2 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-network-information",
+            "fresh-count": 2,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 2,
+            "message": "2 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-vibration",
+            "fresh-count": 2,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 2,
+            "message": "2 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-globalization",
+            "fresh-count": 2,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 2,
+            "message": "2 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-device-orientation",
+            "fresh-count": 1,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 1,
+            "message": "1 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-device",
+            "fresh-count": 0,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 0,
+            "message": "0 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-compat",
+            "fresh-count": 0,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 0,
+            "message": "0 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-device-motion",
+            "fresh-count": 0,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 0,
+            "message": "0 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-legacy-whitelist",
+            "fresh-count": 0,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 0,
+            "message": "0 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-console",
+            "fresh-count": 0,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 0,
+            "message": "0 Pull Requests"
+        },
+        {
+            "repo": "cordova-plugin-test-framework",
+            "fresh-count": 0,
+            "old-count": 0,
+            "stale-count": 0,
+            "total-count": 0,
+            "message": "0 Pull Requests"
+        }
+    ]
+}
