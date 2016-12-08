@@ -23,7 +23,7 @@ Put the json in the appropriate `YYYY` directory in this repo.
 
 ## Easy scripts
 
-`npm install && npm list:all`
+`npm install && npm run list:all`
 
 This will grab the plugins and platforms PRs and put them in the appropriate year folder automatically, and name them accordingly to the current date.
 
