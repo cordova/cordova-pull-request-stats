@@ -17,7 +17,7 @@ Put the json in the appropriate `YYYY` directory in this repo.
 --sort-ascending only works with `--stats-only` and sorts the results by fresh pull requests (false by default).
 
 --json output starts on the second line, filter it out by piping the output to `tail -n +2`
-`old` pull requests are PRs that are older than `--max-age`.
+`old` pull requests are PRs that are older than `--max-age` (days).
 `stale` pull requests are PRs that are `old` and last commented on by `--hide-user`
 ````
 
